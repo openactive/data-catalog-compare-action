@@ -1,5 +1,5 @@
 # data-catalog-compare-action
-GitHub Action to compare data catalog files
+GitHub Action to compare data catalog files, used by https://github.com/openactive/data-catalogs
 
 ## Inputs
 
