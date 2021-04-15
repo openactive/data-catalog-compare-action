@@ -12,7 +12,13 @@ try {
     throw new Error('Only one new dataset may be added per PR');
   }
 
-  core.setOutput("url", newDatasets[0] || "");
+  if (newDatasets[0]) {
+    console.log(`Found new dataset: '${newDatasets[0]}'`);
+    core.setOutput("url", newDatasets[0]);
+  } else {
+    console.log(`PR does not contain a new dataset`);
+    core.setOutput("url", "");
+  }
 } catch (error) {
   core.setFailed(error.message);
 }
