@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/openactive/data-catalog-compare-action/issues"
   },
-  "homepage": "https://github.com/openactive/data-catalog-compare-action#readme"
+  "homepage": "https://github.com/openactive/data-catalog-compare-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.7"
+  }
 }
