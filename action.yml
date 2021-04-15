@@ -1,0 +1,15 @@
+name: 'Data Catalog Compare Action'
+description: 'Get new dataset URL that has been added to a Data Catalog'
+inputs:
+  new_json_file:
+    description: 'New JSON-LD Data Catalog file path'
+    required: true
+  old_json_file:
+    description: 'Old JSON-LD Data Catalog file path'
+    required: true
+outputs:
+  url:
+    description: 'URL of newly added dataset'
+runs:
+  using: 'node12'
+  main: 'index.js'

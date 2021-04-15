@@ -1,0 +1,20 @@
+{
+  "name": "data-catalog-compare-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to compare data catalog files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openactive/data-catalog-compare-action.git"
+  },
+  "keywords": [],
+  "author": "Nick Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openactive/data-catalog-compare-action/issues"
+  },
+  "homepage": "https://github.com/openactive/data-catalog-compare-action#readme"
+}
