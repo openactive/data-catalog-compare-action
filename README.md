@@ -19,8 +19,9 @@ URL of newly added dataset
 
 ## Example usage
 
+```
 uses: openactive/data-catalog-compare-action@main
 with:
   new_json_file: './a.json'
   old_json_file: './b.json'
-  
+```
