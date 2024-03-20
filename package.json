@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/openactive/data-catalog-compare-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.7"
+    "@actions/core": "^1.10.1"
   }
 }
